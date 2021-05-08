@@ -4,4 +4,30 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\components\logo.vue" />
+    <Content Remove="wwwroot\components\Main.vue" />
+    <Content Remove="wwwroot\js\App.vue" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Home\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Home\site.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\App.vue" />
+    <None Include="wwwroot\js\logo.vue" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\components\" />
+  </ItemGroup>
+
 </Project>

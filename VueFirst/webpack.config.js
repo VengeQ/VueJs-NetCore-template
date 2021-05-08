@@ -22,26 +22,30 @@ module.exports = {
             {
                 test: /\.vue$/,
                 loader: 'vue-loader',
-                options: {
-                    loaders: {
-                        'scss': [
-                            'vue-style-loader',
-                            'css-loader',
-                            'sass-loader'
-                        ],
-                        'sass': [
-                            'vue-style-loader',
-                            'css-loader',
-                            'sass-loader?indentedSyntax'
-                        ]
-                    }
-                }
+                //options: {
+                //    loaders: {
+                //        'scss': [
+                //            'vue-style-loader',
+                //            'css-loader',
+                //            'sass-loader'
+                //        ],
+                //        'sass': [
+                //            'vue-style-loader',
+                //            'css-loader',
+                //            'sass-loader?indentedSyntax'
+                //        ]
+                //    }
+                //}
+                exclude: file => (
+                    /node_modules/.test(file) &&
+                    !/\.vue\.js/.test(file)
+                )
             },
-            {
-                test: /\.js$/,
-                loader: 'babel-loader',
-                exclude: /node_modules/
-            },
+            //{
+            //    test: /\.js$/,
+            //    loader: 'babel-loader',
+            //    exclude: /node_modules/
+            //},
             {
                 test: /\.(png|jpg|gif|svg)$/,
                 loader: 'file-loader',
@@ -50,7 +54,7 @@ module.exports = {
                 }
             }
         ]
-    }//,
+    },
     //resolve: {
     //    alias: {
     //        'vue$': 'vue/dist/vue.esm.js'
@@ -69,6 +73,9 @@ module.exports = {
     //    filename: '[name].js',
     //    publicPath: 'dist/'
     //}
+    plugins: [
+        new VueLoaderPlugin()
+    ]
 }
 
 //if (process.env.NODE_ENV === 'production') {

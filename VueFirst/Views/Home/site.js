@@ -1,7 +1,5 @@
-﻿import Vue from 'vue'
+﻿import { createApp } from 'vue'
 import App from './App.vue'
 
-Vue.config.productionTip = false
-
 /* eslint-disable no-new */
-new Vue(App).$mount('#app')
+createApp(App).mount("#app");

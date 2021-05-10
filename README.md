@@ -6,4 +6,4 @@ restore npm packages, after run in project catalog
 
 `npm run build`
 
-That's all
+That's all. Start project with IIS

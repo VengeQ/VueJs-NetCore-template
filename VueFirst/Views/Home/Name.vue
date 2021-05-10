@@ -1,9 +1,9 @@
-﻿<template>
+﻿<!--<template>
     <div>
         {{myName}}
     </div>
 </template>
-<script>
+<script lang="ts">
     export default {
         data() {
             return {
@@ -16,4 +16,4 @@
             }
         }
     }
-</script>
+</script>-->

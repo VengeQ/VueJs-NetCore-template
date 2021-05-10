@@ -3,16 +3,16 @@
         <p>
             ПРЮВЕТ
         </p>
-        <Name></Name>
+        <!--<Name></Name>-->
         <!--<logo></logo>-->
     </div>
 </template>
 
-<script>
-    import Name from './Name.vue'
-    export default {
-        components: {
-            Name
-        }
-    }
+<script lang="ts">
+    //import Name from './Name.vue'
+    //export default {
+    //    components: {
+    //        Name
+    //    }
+    //}
 </script>   

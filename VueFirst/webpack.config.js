@@ -5,10 +5,11 @@ const bundleOutputDir = './wwwroot/js';
 
 
 module.exports = {
+    context:__dirname,
     mode: 'development',
-    entry: './Views/Home/site.js',
+    entry: './Views/Home/site.ts',
     output: {
-        path: path.resolve(__dirname, './wwwroot/js'),
+        path: path.resolve(__dirname, 'wwwroot/js'),
         publicPath: '/wwwroot/js/',
         filename: 'site.js'
     },
@@ -20,6 +21,14 @@ module.exports = {
                     'vue-style-loader',
                     'css-loader'
                 ],
+            },
+            {
+                test: /\.tsx?$/,
+                loader: "ts-loader",
+                options: {
+                    appendTsSuffixTo: [/\.vue$/]
+                },
+                exclude: /node_modules/
             },
             {
                 test: /\.vue$/,
@@ -43,11 +52,11 @@ module.exports = {
                     !/\.vue\.js/.test(file)
                 )
             },
-            //{
-            //    test: /\.js$/,
-            //    loader: 'babel-loader',
-            //    exclude: /node_modules/
-            //},
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/
+            },
             {
                 test: /\.(png|jpg|gif|svg)$/,
                 loader: 'file-loader',
@@ -57,12 +66,9 @@ module.exports = {
             }
         ]
     },
-    //resolve: {
-    //    alias: {
-    //        'vue$': 'vue/dist/vue.esm.js'
-    //    },
-    //    extensions: ['*', '.js', '.vue', '.json']
-    //},
+    resolve: {
+        extensions: ['*', '.js', '.vue', '.json']
+    },
     //devServer: {
     //    historyApiFallback: true,
     //    noInfo: true,

@@ -4,14 +4,14 @@
             ПРЮВЕТ
         </p>
         <Name :myName='name'></Name>
-        <Name2></Name2>
+        <Persons></Persons>
         <!--<logo></logo>-->
     </div>
 </template>
 
 <script lang="ts">
     import Name from './Name.vue'
-    import Name2 from './Name2.vue'
+    import Persons from './Persons.vue'
     export default {
         data() {
             return {
@@ -20,7 +20,7 @@
         },
         components: {
             Name,
-            Name2
+            Persons
         }
     }
 </script>   

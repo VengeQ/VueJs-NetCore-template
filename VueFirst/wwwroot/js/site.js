@@ -56,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* binding */ render)\n/* harmony export */ });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n\n\nvar _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(\"p\", null, \" ПРЮВЕТ \", -1 /* HOISTED */);\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  var _component_Name = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)(\"Name\");\n  var _component_Name2 = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)(\"Name2\");\n\n  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(\"div\", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Name, { myName: $data.name }, null, 8 /* PROPS */, [\"myName\"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Name2), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(\"<logo></logo>\")]);\n}\n\n//# sourceURL=webpack://asp.net/./Views/Home/App.vue?./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet%5B1%5D.rules%5B2%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B9%5D.use%5B0%5D");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* binding */ render)\n/* harmony export */ });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n\n\nvar _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(\"p\", null, \" ПРЮВЕТ \", -1 /* HOISTED */);\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  var _component_Name = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)(\"Name\");\n  var _component_Persons = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)(\"Persons\");\n\n  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(\"div\", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Name, { myName: $data.name }, null, 8 /* PROPS */, [\"myName\"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Persons), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(\"<logo></logo>\")]);\n}\n\n//# sourceURL=webpack://asp.net/./Views/Home/App.vue?./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet%5B1%5D.rules%5B2%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B9%5D.use%5B0%5D");
 
 /***/ }),
 
@@ -70,13 +70,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Name2.vue?vue&type=template&id=2e70afc6":
-/*!***********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Name2.vue?vue&type=template&id=2e70afc6 ***!
-  \***********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Persons.vue?vue&type=template&id=293cb186":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Persons.vue?vue&type=template&id=293cb186 ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* binding */ render)\n/* harmony export */ });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(\"div\", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.myName), 1 /* TEXT */);\n}\n\n//# sourceURL=webpack://asp.net/./Views/Home/Name2.vue?./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet%5B1%5D.rules%5B2%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B9%5D.use%5B0%5D");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* binding */ render)\n/* harmony export */ });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(\"div\", null, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.persons, function (person) {\n    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(\"p\", {\n      key: person.name\n    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(person.name) + \" \" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(person.age), 1 /* TEXT */);\n  }), 128 /* KEYED_FRAGMENT */))]);\n}\n\n//# sourceURL=webpack://asp.net/./Views/Home/Persons.vue?./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet%5B1%5D.rules%5B2%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B9%5D.use%5B0%5D");
 
 /***/ }),
 
@@ -96,7 +96,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue_
   \***************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _Name_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Name.vue */ \"./Views/Home/Name.vue\");\n/* harmony import */ var _Name2_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Name2.vue */ \"./Views/Home/Name2.vue\");\n\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\r\n    data() {\r\n        return {\r\n            name: \"Vasya\"\r\n        };\r\n    },\r\n    components: {\r\n        Name: _Name_vue__WEBPACK_IMPORTED_MODULE_0__.default,\r\n        Name2: _Name2_vue__WEBPACK_IMPORTED_MODULE_1__.default\r\n    }\r\n});\r\n\n\n//# sourceURL=webpack://asp.net/./Views/Home/App.vue?./node_modules/ts-loader/index.js??clonedRuleSet-2!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B9%5D.use%5B0%5D");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _Name_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Name.vue */ \"./Views/Home/Name.vue\");\n/* harmony import */ var _Persons_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Persons.vue */ \"./Views/Home/Persons.vue\");\n\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\r\n    data() {\r\n        return {\r\n            name: \"Vasya\"\r\n        };\r\n    },\r\n    components: {\r\n        Name: _Name_vue__WEBPACK_IMPORTED_MODULE_0__.default,\r\n        Persons: _Persons_vue__WEBPACK_IMPORTED_MODULE_1__.default\r\n    }\r\n});\r\n\n\n//# sourceURL=webpack://asp.net/./Views/Home/App.vue?./node_modules/ts-loader/index.js??clonedRuleSet-2!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B9%5D.use%5B0%5D");
 
 /***/ }),
 
@@ -110,13 +110,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./node_modules/ts-loader/index.js??clonedRuleSet-2!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Name2.vue?vue&type=script&lang=ts":
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/ts-loader/index.js??clonedRuleSet-2!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Name2.vue?vue&type=script&lang=ts ***!
-  \*****************************************************************************************************************************************************************************/
+/***/ "./node_modules/ts-loader/index.js??clonedRuleSet-2!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Persons.vue?vue&type=script&lang=ts":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/ts-loader/index.js??clonedRuleSet-2!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Persons.vue?vue&type=script&lang=ts ***!
+  \*******************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ HelloWorld)\n/* harmony export */ });\n/* harmony import */ var vue_class_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-class-component */ \"./node_modules/vue-class-component/dist/vue-class-component.esm-bundler.js\");\n\r\nclass HelloWorld extends vue_class_component__WEBPACK_IMPORTED_MODULE_0__.Vue {\r\n    constructor() {\r\n        super(...arguments);\r\n        this.myName = \"Hello World\";\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack://asp.net/./Views/Home/Name2.vue?./node_modules/ts-loader/index.js??clonedRuleSet-2!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B9%5D.use%5B0%5D");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Persons)\n/* harmony export */ });\n/* harmony import */ var vue_class_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-class-component */ \"./node_modules/vue-class-component/dist/vue-class-component.esm-bundler.js\");\n\r\nclass Persons extends vue_class_component__WEBPACK_IMPORTED_MODULE_0__.Vue {\r\n    constructor() {\r\n        super(...arguments);\r\n        this.persons = [{ name: \"Vasya\", age: 13 }];\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack://asp.net/./Views/Home/Persons.vue?./node_modules/ts-loader/index.js??clonedRuleSet-2!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B9%5D.use%5B0%5D");
 
 /***/ }),
 
@@ -150,13 +150,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./Views/Home/Name2.vue":
-/*!******************************!*\
-  !*** ./Views/Home/Name2.vue ***!
-  \******************************/
+/***/ "./Views/Home/Persons.vue":
+/*!********************************!*\
+  !*** ./Views/Home/Persons.vue ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _Name2_vue_vue_type_template_id_2e70afc6__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Name2.vue?vue&type=template&id=2e70afc6 */ \"./Views/Home/Name2.vue?vue&type=template&id=2e70afc6\");\n/* harmony import */ var _Name2_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Name2.vue?vue&type=script&lang=ts */ \"./Views/Home/Name2.vue?vue&type=script&lang=ts\");\n\n\n\n_Name2_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_1__.default.render = _Name2_vue_vue_type_template_id_2e70afc6__WEBPACK_IMPORTED_MODULE_0__.render\n/* hot reload */\nif (false) {}\n\n_Name2_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_1__.default.__file = \"Views/Home/Name2.vue\"\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_Name2_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_1__.default);\n\n//# sourceURL=webpack://asp.net/./Views/Home/Name2.vue?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _Persons_vue_vue_type_template_id_293cb186__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Persons.vue?vue&type=template&id=293cb186 */ \"./Views/Home/Persons.vue?vue&type=template&id=293cb186\");\n/* harmony import */ var _Persons_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Persons.vue?vue&type=script&lang=ts */ \"./Views/Home/Persons.vue?vue&type=script&lang=ts\");\n\n\n\n_Persons_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_1__.default.render = _Persons_vue_vue_type_template_id_293cb186__WEBPACK_IMPORTED_MODULE_0__.render\n/* hot reload */\nif (false) {}\n\n_Persons_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_1__.default.__file = \"Views/Home/Persons.vue\"\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_Persons_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_1__.default);\n\n//# sourceURL=webpack://asp.net/./Views/Home/Persons.vue?");
 
 /***/ }),
 
@@ -180,13 +180,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./Views/Home/Name2.vue?vue&type=template&id=2e70afc6":
-/*!************************************************************!*\
-  !*** ./Views/Home/Name2.vue?vue&type=template&id=2e70afc6 ***!
-  \************************************************************/
+/***/ "./Views/Home/Persons.vue?vue&type=template&id=293cb186":
+/*!**************************************************************!*\
+  !*** ./Views/Home/Persons.vue?vue&type=template&id=293cb186 ***!
+  \**************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_9_use_0_Name2_vue_vue_type_template_id_2e70afc6__WEBPACK_IMPORTED_MODULE_0__.render)\n/* harmony export */ });\n/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_9_use_0_Name2_vue_vue_type_template_id_2e70afc6__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Name2.vue?vue&type=template&id=2e70afc6 */ \"./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Name2.vue?vue&type=template&id=2e70afc6\");\n\n\n//# sourceURL=webpack://asp.net/./Views/Home/Name2.vue?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_9_use_0_Persons_vue_vue_type_template_id_293cb186__WEBPACK_IMPORTED_MODULE_0__.render)\n/* harmony export */ });\n/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_9_use_0_Persons_vue_vue_type_template_id_293cb186__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Persons.vue?vue&type=template&id=293cb186 */ \"./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Persons.vue?vue&type=template&id=293cb186\");\n\n\n//# sourceURL=webpack://asp.net/./Views/Home/Persons.vue?");
 
 /***/ }),
 
@@ -210,13 +210,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./Views/Home/Name2.vue?vue&type=script&lang=ts":
-/*!******************************************************!*\
-  !*** ./Views/Home/Name2.vue?vue&type=script&lang=ts ***!
-  \******************************************************/
+/***/ "./Views/Home/Persons.vue?vue&type=script&lang=ts":
+/*!********************************************************!*\
+  !*** ./Views/Home/Persons.vue?vue&type=script&lang=ts ***!
+  \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _node_modules_ts_loader_index_js_clonedRuleSet_2_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_9_use_0_Name2_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_0__.default)\n/* harmony export */ });\n/* harmony import */ var _node_modules_ts_loader_index_js_clonedRuleSet_2_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_9_use_0_Name2_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/ts-loader/index.js??clonedRuleSet-2!../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Name2.vue?vue&type=script&lang=ts */ \"./node_modules/ts-loader/index.js??clonedRuleSet-2!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Name2.vue?vue&type=script&lang=ts\");\n \n\n//# sourceURL=webpack://asp.net/./Views/Home/Name2.vue?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _node_modules_ts_loader_index_js_clonedRuleSet_2_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_9_use_0_Persons_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_0__.default)\n/* harmony export */ });\n/* harmony import */ var _node_modules_ts_loader_index_js_clonedRuleSet_2_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_9_use_0_Persons_vue_vue_type_script_lang_ts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/ts-loader/index.js??clonedRuleSet-2!../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Persons.vue?vue&type=script&lang=ts */ \"./node_modules/ts-loader/index.js??clonedRuleSet-2!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./Views/Home/Persons.vue?vue&type=script&lang=ts\");\n \n\n//# sourceURL=webpack://asp.net/./Views/Home/Persons.vue?");
 
 /***/ }),
 

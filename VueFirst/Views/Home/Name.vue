@@ -1,19 +1,27 @@
-﻿<!--<template>
+﻿<template>
     <div>
         {{myName}}
     </div>
 </template>
 <script lang="ts">
     export default {
+        name: "Name",
         data() {
-            return {
-                name:'Daniil'
+            return{
+                name: "Daniil",
+                lastName:"B"
             }
         },
-        computed: {
-            myName() {
-                return this.name
+        props: {
+            myName: {
+                type: String,
+                require: true
+            }
+        },
+        methods: {
+            changeName() {
+
             }
         }
     }
-</script>-->
+</script>

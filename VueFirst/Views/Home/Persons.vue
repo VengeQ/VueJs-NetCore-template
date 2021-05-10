@@ -8,9 +8,8 @@
 </template>
 <script lang="ts">
     import { Vue } from 'vue-class-component'
-    // @ts-ignore
-    import Person from './Persons.ts'
+    import Person from './Person';
     export default class Persons extends Vue {
-        persons: Person[] = [{ name: "Vasya", age: 13 }]
+        persons: Person[] = [{ name: "Vasya", age: 13 }, { name: "Petya", age: 24 }]
     }
 </script>

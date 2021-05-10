@@ -48,8 +48,7 @@ module.exports = {
                 //    }
                 //}
                 exclude: file => (
-                    /node_modules/.test(file) &&
-                    !/\.vue\.js/.test(file)
+                    /node_modules/.test(file) 
                 )
             },
             {
@@ -67,7 +66,7 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['*', '.js', '.vue', '.json']
+        extensions: ['.js', '.vue', '.json']
     },
     //devServer: {
     //    historyApiFallback: true,

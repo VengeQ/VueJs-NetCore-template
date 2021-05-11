@@ -5,7 +5,7 @@
         </p>
         <Name :myName='name'></Name>
         <Persons></Persons>
-        <Colors></Colors>
+        <Colors v-model:color="yellow"></Colors>
     </div>
 </template>
 
@@ -16,7 +16,8 @@
     export default {
         data() {
             return {
-                name:"Vasya"
+                name: "Vasya",
+                yellow: "Yellow"
             }
         },
         components: {

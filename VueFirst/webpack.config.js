@@ -11,7 +11,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'wwwroot/js'),
         publicPath: '/wwwroot/js/',
-        filename: 'site.js'
+        filename: 'site.js',
+        clean: true
     },
     module: {
         rules: [
@@ -66,7 +67,10 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['.js', '.vue', '.json']
+        extensions: ['.ts', '.js', '.vue', '.json'],
+        alias: {
+            'core': path.resolve(__dirname, 'Core/'),
+        }
     },
     //devServer: {
     //    historyApiFallback: true,
@@ -86,6 +90,22 @@ module.exports = {
             __VUE_OPTIONS_API__: true,
             __VUE_PROD_DEVTOOLS__: true,
         }),
+        new RemovePlugin({
+            before: {
+                // parameters for "before normal compilation" stage.
+            },
+            watch: {
+                // parameters for "before watch compilation" stage.
+            },
+            after: {
+                // parameters for "after normal and watch compilation" stage.
+                folder: './Views/**',
+                method: (absoluteItemPath) => {
+                    return new RegExp(/(\.map|\.js)$/, 'm').test(absoluteItemPath);
+                },
+
+            }
+        })
     ]
 }
 

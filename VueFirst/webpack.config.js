@@ -2,7 +2,7 @@ const webpack = require('webpack');
 var path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
 const bundleOutputDir = './wwwroot/js';
-
+const RemovePlugin = require('remove-files-webpack-plugin');
 
 module.exports = {
     context:__dirname,
@@ -98,12 +98,22 @@ module.exports = {
                 // parameters for "before watch compilation" stage.
             },
             after: {
-                // parameters for "after normal and watch compilation" stage.
-                folder: './Views/**',
-                method: (absoluteItemPath) => {
-                    return new RegExp(/(\.map|\.js)$/, 'm').test(absoluteItemPath);
-                },
-
+                test: [
+                    {
+                        folder: 'Views/Home',
+                        method: (absoluteItemPath) => {
+                            return new RegExp(/(\.map|\.js)$/, 'm').test(absoluteItemPath);
+                        },
+                        recursive: true
+                    },
+                    {
+                        folder: 'Core',
+                        method: (absoluteItemPath) => {
+                            return new RegExp(/(\.map|\.js)$/, 'm').test(absoluteItemPath);
+                        },
+                        recursive: true
+                    }
+                ]
             }
         })
     ]

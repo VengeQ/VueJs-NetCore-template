@@ -9,12 +9,12 @@ namespace VueFirst.Models
     {
         public int Id { get; }
         public string Value { get; }
-        public Color Color { get; }
+        //public Color Color { get; }
         public HomeModel() { }
-        public HomeModel(int id, string value, Color color) {
+        public HomeModel(int id, string value) {
             Id = id;
             Value = value;
-            Color = color;
+  
         }
     }
 }

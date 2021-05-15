@@ -1,4 +1,4 @@
 ﻿export default interface HomeData {
-    uid: number,
+    id: number,
     value: string
 }

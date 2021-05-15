@@ -5,12 +5,18 @@
 
 
 @section Scripts{ 
-    <script asp-add-nonce>
+    <script src="./js/site.js" asp-append-version="true">
         @*var data = {
             homeData: @Json.Serialize(Model);
         }*@
 
         //app.start(1)
+    </script>
+    <script asp-add-nonce>
+        var data = {
+            homeData: @Json.Serialize(Model)
+        };
+        app.startApp(data);
     </script>
 }
 <div id="app">

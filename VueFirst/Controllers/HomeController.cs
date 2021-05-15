@@ -21,7 +21,7 @@ namespace VueFirst.Controllers
         public IActionResult Index()
         {
             var color = new Color { Id = 1, Description = "Red" };
-            var model = new HomeModel(1, "Hello", color);
+            var model = new HomeModel(1, "Hello");
             return View(model);
         }
 

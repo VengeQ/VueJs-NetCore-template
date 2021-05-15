@@ -2,10 +2,17 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="app">
 
-</div>
 
 @section Scripts{ 
-    
+    <script asp-add-nonce>
+        @*var data = {
+            homeData: @Json.Serialize(Model);
+        }*@
+
+        //app.start(1)
+    </script>
 }
+<div id="app">
+
+</div>  

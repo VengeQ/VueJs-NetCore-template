@@ -20,7 +20,9 @@ namespace VueFirst.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var color = new Color { Id = 1, Description = "Red" };
+            var model = new HomeModel(1, "Hello", color);
+            return View(model);
         }
 
         public IActionResult Privacy()
@@ -38,7 +40,7 @@ namespace VueFirst.Controllers
         [HttpGet("NextColor")]
         public async Task<Color> NextColor()
         {
-            var result = Task.Run<Color>(() =>
+            var result = Task.Run(() =>
             {
                 var colors = new List<Color> {
                 new Color { Id = 1, Description = "Red"},

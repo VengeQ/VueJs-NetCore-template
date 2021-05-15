@@ -7,10 +7,9 @@
     import { Vue } from 'vue-class-component'
     import Color from './Color'
     import { Prop } from 'vue-property-decorator'
-    const axios = require('axios').default
-    import { get } from 'core/http'
+    import { getResult } from 'core/http'
     import { Success, Result, Failure } from 'core/Result'
-    import { match, select } from 'ts-pattern';
+    import { match } from 'ts-pattern';
 
     export default class Colors extends Vue {
 
@@ -18,16 +17,15 @@
         color!: string;
 
         async doClick() {
-            const result: Result<any, any> = await get('/NextColor')
+            const result: Result<any, String> = await getResult('/NextColor')
             console.log(result.value.data.description);
             match(result)
-                .with({ type: "Success" }, (res) => this.$emit('update:color', res.value.data.description))
+                .with({ type: "Success" }, (res) => {
+                    const color: Color = res.value.data;
+                    this.$emit('update:color', color.description)
+                })
                 .with({ type: "Failure" }, (res) => console.log(res))
                 .exhaustive()
-
-            //const result: Color = data.data;
-           // this.$emit('update:color', result.description)
- 
         }
     }
 

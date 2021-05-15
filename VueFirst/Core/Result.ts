@@ -16,5 +16,3 @@ export class Failure<T>{
 
 export
     type Result<T, R> = Success<T> | Failure<R>
-    //| { type: 'Success'; value: T }
-    //| { type: 'Failure'; value: R };
